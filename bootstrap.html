@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar-brand {
+      margin-left: 20px;
+    }
+
+    .navbar-brand1 {
+      margin-left: 200px;
+      font-size: 16px;
+      text-decoration: none;
+      color: azure;
+      margin-right: 20px;
+    }
+
+    .navbar-brand1:hover {
+      cursor: pointer;
+      color: azure;
+    }
+
+    #navbarDropdown {
+      color: azure;
+      font-size: 15px;
+    }
+
+    .nav-item {
+      font-size: 15px;
+    }
+
+    #motor {
+      background-color: gray;
+      display: grid;
+
+    }
+
+    .end {
+      
+     background-color: cornsilk;
+      height: auto;
+
+    }
+
+    .row {
+      display: flex;
+
+    }
+    .list{
+      margin-top: 20px;
+     margin-left:170px ;
+     width: auto;
+    }
+    .list1{
+      margin-top: 20px;
+      margin-left: 200px;
+      
+      width: auto;
+    }
+    .list2{
+      margin-top: 20px;
+      margin-left: 200px;
+      width: auto;
+    }
+   
+    ul li {
+           
+            list-style: none;
+font-weight: bold;
+font-size: 12px;
+        }
+
+    ul li a {
+            text-decoration: none;
+            color: black;
+    }
+    h5{
+      font-weight: bolder;
+    }
+    
+  </style>
+
+</head>
+
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark " id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./r6.png" alt="" width="150" height="24" class="d-inline-block align-text-top">
+
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand1" href="#motor">Motorcyles</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Shop the look
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://www.royalenfield.com/in/en/gma/" target="_self">Motor cycle
+                  accessories</a></li>
+              <li><a class="dropdown-item" href="https://www.royalenfield.com/in/en/apparel/"
+                  target="_self">Apparels</a></li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Rides
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://www.royalenfield.com/in/en/rides-calendar/"
+                  target="_self">Rides and Events</a></li>
+              <li><a class="dropdown-item" href="https://www.royalenfield.com/in/en/rentals/" target="_self">Rentals</a>
+              </li>
+
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.royalenfield.com/in/en/support/"
+              target="_self">Support</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.royalenfield.com/in/en/locate-us/" target="_self">Locate us</a>
+          </li>
+          <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> -->
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./cr1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./cr2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./cr5.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class=" dark-theme-p4d " id="motor">
+
+
+
+    <h2 style="color: whitesmoke; background:darkslategray ; text-align: center;"
+      class="text-heading dealerGalleryHeading dark ">Motor Cycles</h2>
+
+
+    <img src="./p1.jpg" class="rounded float-start" alt="... " width="700px">
+
+    <img src="./p2.webp" class="rounded float-end" alt="..." style="margin-left: 600px;">
+    <img src="./p3.webp" class="rounded float-start" alt="..." width="700px">
+    <img src="./p4.webp" class="rounded float-end" alt="..." style="margin-left: 600px;">
+
+  </div>
+
+
+  <footer class="end ">
+    <div class="main">
+      <div class="row">
+        <div class="list">
+          <h5>Motorcycles</h5><br>
+          <ul>
+            <li>New Himalayan</li>
+            <li>Bullet 350</li>
+            <li>Hunter 350</li>
+            <li>Continetal GT</li>
+            <li>Classic 350</li>
+          </ul>
+        </div>
+        <div class="list1">
+          <h5>Rides and event</h5><br>
+          <ul>
+            <li><a href="https://www.royalenfield.com/in/en/rides-calendar/" target="_self">Rides</a></li>
+
+          </ul>
+        </div>
+        <div class="list2">
+          <h5>Careers</h5><br>
+          <ul>
+            <li><a href="https://careers.royalenfield.com/us/en/home">Life at Royal Enfield</a></li>
+            <li><a href="https://www.royalenfield.com/in/en/careers-at-royal-enfield-dealership/">Life at
+                Royal Enfield
+                Careers at Dealership</a></li>
+
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+    
+  </footer>
+  
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
